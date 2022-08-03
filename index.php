@@ -1,5 +1,6 @@
 <?php
-$massive = [2, 5, 3, 9];
-$result = $massive[0]*$massive[1] + $massive[2]*$massive[3];
-echo $result;
+$massive = [1 => "a",2 => "b",3=> "c"];
+echo $massive[1];
+echo $massive[2];
+echo $massive[3];
 ?>
