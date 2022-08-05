@@ -1,10 +1,13 @@
 <?php
-$arr = [];
-$arr[] = 1;
-$arr[] = 2;
-$arr[] = 3;
-$arr[] = 4;
-$arr[] = 5;
-var_dump($arr);
+$test1 = 2;
+$test2 = 5;
+if ($test1>$test2) {
+    echo "+";
+}
+    else {
+        echo "-";
+    }
+
+
 
 
