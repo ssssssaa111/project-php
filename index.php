@@ -1,6 +1,7 @@
 <?php
-$num = 15;
-if ($num >= 10 and $num <= 20) {
+$num1 = 1;
+$num2 = 3;
+if ($num1 >= 1 and $num2 >= 3) {
     echo "+";
 }
 else {
