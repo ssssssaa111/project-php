@@ -1,13 +1,9 @@
 <?php
-$test1 = 2;
-$test2 = 5;
-if ($test1>$test2) {
+$num = 15;
+if ($num >= 10 and $num <= 20) {
     echo "+";
 }
-    else {
-        echo "-";
-    }
-
-
-
-
+else {
+    echo "-";
+}
+?>
