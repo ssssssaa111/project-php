@@ -1,10 +1,9 @@
 <?php
-$num1 = 1;
-$num2 = 3;
-if ($num1 >= 1 and $num2 >= 3) {
-    echo "+";
-}
-else {
-    echo "-";
+$num = 3;
+
+if ( ($num > 5 ) or ( $num > 0 and $num < 3) ) {
+    echo '+';
+} else {
+    echo '-';
 }
 ?>
