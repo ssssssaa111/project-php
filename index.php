@@ -1,5 +1,6 @@
 <?php
-for ($i=100; $i>=0; $i--) {
-    echo $i;
+$result = 0;
+for ($i=1;$i<=99;$i+=2){
+    $result=$result+$i;
 }
-?>
+echo $result;
