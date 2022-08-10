@@ -1,6 +1,8 @@
 <?php
-$result = 0;
-for ($i=1;$i<=99;$i+=2){
-    $result=$result+$i;
+$arr = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+$summa = 0;
+foreach ($arr as $result){
+    $summa+=$result;
 }
-echo $result;
+echo $summa;
+?>
