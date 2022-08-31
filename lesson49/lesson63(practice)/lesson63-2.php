@@ -9,10 +9,11 @@ $arr = [
         'employee6' => 600,
         'employee7' => 700,
     ];
+$result = [ ];
 foreach ($arr as $elem){
     if ($elem <=400){
-        $elem = $elem + $elem * 0.1;
-        echo $elem;
+        $result[] = $elem + $elem * 0.1;
     }
 
 }
+var_dump($result);
