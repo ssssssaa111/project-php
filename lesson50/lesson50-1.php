@@ -1,8 +1,6 @@
 <?php
-// нужно вывести нечетные элементы массива
-$arr = [1,2,3,4,5,6,7];
-foreach ($arr as $elem){
-    if ($elem %2==1){
-        echo $elem;
-    }
+$arr = [1 => 6, 2 => 7, 3 => 8,
+    4 => 9, 5 => 10];
+foreach($arr as $key){;
+    var_dump($arr);
 }

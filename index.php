@@ -1,8 +1,6 @@
 <?php
-$arr = [1, 2, 3, 4, 5, 6, 7, 8, 9];
-$summa = 0;
-foreach ($arr as $result){
-    $summa+=$result;
+$arr = ['user1' => 30, 'user2'
+=> 32, 'user3' => 33];
+foreach ($arr as $key=>$elem){
+    echo $key . "-" . "age" . $elem . "years";
 }
-echo $summa;
-?>
