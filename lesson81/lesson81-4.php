@@ -1,6 +1,7 @@
 <?php
 // Что выведет каждый из echo в результате выполнения следующего кода:
-function func($num) {
+function func($num)
+{
     if ($num <= 0) {
         return abs($num);
     } else {
