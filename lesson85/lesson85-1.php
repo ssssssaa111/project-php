@@ -5,7 +5,7 @@ function getDigitsSum($num)
     $arr = [];
     $sum = 0;
     for ($i = 1; $i < 2030; $i++) {
-        if (getDigitsSum($i) == 13) {
+        if (getDigitsSum($i) === 13) {
             return array_sum(str_split($num, ''));
         }
     }
