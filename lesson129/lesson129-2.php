@@ -10,6 +10,10 @@ $arr = [
     ['value' => '2', 'text' => 'text2'],
     ['value' => '3', 'text' => 'text3'],
 ];
+echo "<select>";
 foreach ($arr as $elem) {
-    echo "<select><option><a href=\"{$elem['value']}\">{$elem['text']}</a></option></select>";
+    echo "<option>";
+    echo "<a href=\"{$elem['value']}\">{$elem['text']} </a";
+    echo "</option>";
 }
+echo "</select>";

@@ -10,6 +10,8 @@ $arr = [
     ['href' => 'page2.html', 'text' => 'text2'],
     ['href' => 'page3.html', 'text' => 'text3'],
 ];
+echo "<ul>";
 foreach ($arr as $elem) {
-    echo "<ul><li><a href=\"{$elem['href']}\">{$elem['text']}</a></li></ul><br>";
+    echo "<ul><li><a href=\"{$elem['href']}\">{$elem['text']}</a></li><br>";
 }
+echo "</ul>";

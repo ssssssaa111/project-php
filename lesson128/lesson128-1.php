@@ -7,6 +7,8 @@
 	//<li>4</li>
 	//<li>5</li>
 //</ul>
+echo "<ul>";
 for ($i = 1; $i<=5 ; $i++){
-    echo "<ul> <p><li>$i</li></p> </ul>";
+    echo "<li>$i</li>";
 }
+echo "</ul>";

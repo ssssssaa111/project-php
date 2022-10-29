@@ -7,6 +7,8 @@
 //	<option>text3</option>
 //</select>
 $arr = ['text1', 'text2', 'text3'];
+echo "<select>";
 foreach ($arr as $elem){
-    echo "<p><select><option>$elem</option></select></p>";
+    echo "<option>$elem</option>";
 }
+echo "</select>";
