@@ -12,6 +12,6 @@ $arr = [
 ];
 echo "<ul>";
 foreach ($arr as $elem) {
-    echo "<ul><li><a href=\"{$elem['href']}\">{$elem['text']}</a></li><br>";
+    echo "<li><a href=\"{$elem['href']}\">{$elem['text']}</a></li><br>";
 }
 echo "</ul>";

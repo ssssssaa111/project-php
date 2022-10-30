@@ -12,8 +12,6 @@ $arr = [
 ];
 echo "<select>";
 foreach ($arr as $elem) {
-    echo "<option>";
-    echo "<a href=\"{$elem['value']}\">{$elem['text']} </a";
-    echo "</option>";
+    echo "<option> <a href=\"{$elem['value']}\">{$elem['text']} </a </option>";
 }
 echo "</select>";
